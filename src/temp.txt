@@ -1,0 +1,4 @@
+          onSelect={(date) => {
+            selectedDate = date
+            showEventPopup = !showEventPopup
+          }}

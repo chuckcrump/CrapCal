@@ -1,0 +1,75 @@
+/* fancy animated buttons */
+.container {
+     display: flex;
+     float: left;
+     height: 100vh;
+}
+
+.sidebar {
+     width: 145px;
+     background-color: #242424;
+     color: white;
+     padding: 1rem;
+     border-radius: 10px;
+}
+
+
+.buttonani {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 144px;
+     height: 40px;
+     font-size: 25px;
+     border-radius: 25px;
+     transition: border-radius 0.3s ease;
+     cursor: pointer;
+     background-color: #333538;
+     color: #fff;
+     border: none;
+}
+
+.buttonani:hover {
+     border-radius: 10px;
+}
+
+.buttonani span {
+     display: inline-block;
+     transform: scale(1) translate(-40%, 0);
+     position: relative;
+     transition: transform 0.4s ease;
+     cursor: pointer;
+}
+
+.buttonani span:nth-child(1) {
+     display: inline-block;
+     transform: scale(0);
+     transition: transform 0.4s ease;
+}
+
+.buttonani:hover span {
+     transform: scale(0.0) translate(0, 0);
+}
+
+.buttonani:hover span:nth-child(1) {
+     transform: scale(1) translate(62%, 0);
+}
+
+.icon path {
+     fill:white;
+}
+
+/* folder buttons */
+.folder {
+     width: 144px;
+     height: 30px;
+     background-color: transparent;
+     border: none;
+     color: #BDBDBD;
+     font-size: medium;
+     transition: color 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
+}
+
+.folder:hover {
+     color: #fff;
+}

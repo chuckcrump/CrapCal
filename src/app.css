@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.calTable {
+    @apply rounded-xl align-top py-[4px] px-0 border shadow-sm relative cursor-pointer overflow-hidden
+}
+
+.btn {
+    @apply rounded-lg items-center justify-center p-2 text-white mx-[2px] w-20
+}
