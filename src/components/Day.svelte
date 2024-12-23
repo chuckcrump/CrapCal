@@ -28,7 +28,7 @@
     isSameDay(day.date, today)
       ? "bg-blue-500 text-white"
       : selected
-        ? "bg-blue-100 shadow-xl"
+        ? "bg-blue-100 shadow-lg"
         : "bg-gray-100"
   }`}
 >

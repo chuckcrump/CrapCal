@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .calTable {
-    @apply rounded-xl align-top py-[4px] px-0 border shadow-sm relative cursor-pointer overflow-hidden
+    @apply align-top py-[4px] px-0 border shadow-sm relative cursor-pointer overflow-hidden
 }
 
 .btn {
